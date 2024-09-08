@@ -1,0 +1,22 @@
+//Program to generate n prime number
+
+class Lablist_2_1
+{
+    public static void main(String[] args) {
+        int num = 20;
+        int count = 0;
+		
+        for (int i = 1; i <= num; i++) {
+            if (num % i == 0) {
+                count++;
+            }
+        }
+	System.out.println(" Meet Prajapati \n 23BCP265");	
+        if (count == 2) {
+            System.out.println(num + " is a prime number");
+        } else {
+            System.out.println(num + " is not a prime number");
+        }
+    }
+
+}
